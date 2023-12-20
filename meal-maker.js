@@ -21,6 +21,7 @@ let menu = {
         return dishes[randomIndex];
     },
 
+    // Pull a random meal from each course and add the total price of all. 
     generateRandomMeal() {
         let appetizer = this.getRandomDishFromCourse('appetizers');
         let main = this.getRandomDishFromCourse('mains');
